@@ -77,9 +77,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
     border: 1px solid #5edef5;
     color: #000000;
-    font-weight: bold;
     background-color: #e9fa8a;
     transition: transform 0.5s;
 }

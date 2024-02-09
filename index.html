@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Gerador de senhas, gerador password">
-
     <title>Gerador de senha</title>
 
     <link rel="icon" type="image/png" href="lock-icon.png">
@@ -12,19 +11,18 @@
 
 </head>
 <body>
-
     <img class="logo" src="gerador-logo.png" alt="Gerador de Senha logo">
 
     <main class="containrt-input">
         <span>Tamanho <span id="valor"></span> caracteres</span>
         <input id="slider" class="slider" type="range" min="5" max="20" value="10">
 
-        <button id="button" class="button-cta">Gerar senha</button>
+        <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
     </main>
 
-    <div id="container-password" class="container-password hide">
+    <div id="container-password" onclick="copyPassword()" class="container-password hide">
         <span class="title">Sua senha gerada foi:</span>
-        <span id="password" class="password">123123</span>
+        <span id="password" class="password"></span>
         <span class="tooltip">Clique na senha para copiar.</span>
     </div>
 
