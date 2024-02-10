@@ -19,15 +19,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 720px;
 }
 
 .nome {
     color: #62C1E1;
     font-family: 'Inknut Antiqua', serif;
-    font-size: 55px;
+    font-size: 45px;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
     text-align: center;
     padding-top: 40px;
 }
@@ -35,13 +35,13 @@ body {
 .logo {
     width: auto;
     height: auto; 
-    max-width: 200px;
+    max-width: 160px;
 }    
 
 .bird {
     width: auto;
     height: auto;
-    max-width: 220px;
+    max-width: 140px;
 }
 
 .containrt-input {
