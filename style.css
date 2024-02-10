@@ -24,7 +24,7 @@ body {
 .nome {
     color: #62C1E1;
     font-family: 'Inknut Antiqua', serif;
-    font-size: 60px;
+    font-size: 55px;
     justify-content: center;
     align-items: center;
     max-width: 600px;
@@ -35,13 +35,13 @@ body {
 .logo {
     width: auto;
     height: auto; 
-    max-width: 300px;
+    max-width: 200px;
 }    
 
 .bird {
     width: auto;
     height: auto;
-    max-width: 320px;
+    max-width: 220px;
 }
 
 .containrt-input {
