@@ -15,9 +15,33 @@ body {
     flex-direction: column;
 }
 
-.logo {
+.title{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome {
+    color: #62C1E1;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
     max-width: 600px;
-    margin-bottom: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.logo {
+    width: auto;
+    height: auto; 
+    max-width: 200px;
+}    
+
+.bird {
+    width: auto;
+    height: auto;
+    max-width: 250px;
 }
 
 .containrt-input {
